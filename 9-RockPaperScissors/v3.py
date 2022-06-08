@@ -1,7 +1,7 @@
 from random import randint
 
-playerWins = "Player wins!"
-computerWins = "Player wins!"
+player_win_statement = "Player wins!"
+computer_win_statement = "Computer wins!"
 
 print("Rock, paper, scissors...")
 print("Player, make your move!")
@@ -22,18 +22,18 @@ if player == computer:
     print("It's a tie!")
 elif player == "rock":
     if computer == "scissors":
-        print(playerWins)
+        print(player_win_statement)
     else:
-        print(computerWins)
+        print(computer_win_statement)
 elif player == "paper":
     if computer == "rock":
-        print(playerWins)
+        print(player_win_statement)
     else:
-        print(computerWins)
+        print(computer_win_statement)
 elif player == "scissors":
     if computer == "paper":
-        print(playerWins)
+        print(player_win_statement)
     else:
-        print(computerWins)
+        print(computer_win_statement)
 else:
     print("Please, enter a valid move...")
